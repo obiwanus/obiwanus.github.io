@@ -1,2 +1,4 @@
 theme: jekyll-theme-midnight
-title: Ivan Ivanov's notes
+title: Ivan Ivanov's blog
+excerpt_separator: "<!--more-->"
+paginate: 20
