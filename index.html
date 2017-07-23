@@ -4,7 +4,7 @@ layout: default
 
 {% for post in paginator.posts %}
     <h2>
-      <a href="{{ post.url }}" class="entry_title" rel="bookmark">{{ post.title }}</a>
+      <a href="{{ post.url }}" class="entry_title" rel="bookmark">{{ post.title }}</a> &nbsp;
       <span class="entry_date">{{ post.date | date: "%d.%m.%Y" }}</span>
     </h2>
     {% if post.content contains site.excerpt_separator %}
