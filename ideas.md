@@ -1,2 +1,1 @@
-- Tell about the editor project and it's unfair assessment
-- Rust premature abstraction
+- Premature generalisation in Rust - why I try not to do it
